@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "DHYEY KA MEDIA DOWNLOADER",
+  "version": "1.0",
+  "description": "Download all images, videos, and audio from the current page in high quality with a single click.",
+  "icons": {
+    "16": "pic.jpg",
+    "48": "pic.jpg",
+    "128": "pic.jpg"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Download Media",
+    "default_icon": "pic.jpg"
+  }
+}
